@@ -19,8 +19,11 @@ extension PiRecord {
     @NSManaged public var id: UUID?
     @NSManaged public var attemptDate: Date?
     @NSManaged public var score: Int64
-    @NSManaged public var time: Double
-
+    @NSManaged public var time: Int64
+    
+    public var wrapped_attemptDate: Date { attemptDate ?? .distantPast }
+    public var wrapped_score: Int { Int(score) }
+    public var wrapped_time: TimeInterval { TimeInterval(integerLiteral: time) }
 }
 
 extension PiRecord : Identifiable {

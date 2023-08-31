@@ -7,12 +7,6 @@
 
 import SwiftUI
 
-struct NavigationTabBar: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-#Preview {
-    NavigationTabBar()
+enum NavigationTabBar: Hashable {
+    case pi, cards, scoreboard, achievements, settings
 }

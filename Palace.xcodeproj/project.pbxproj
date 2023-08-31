@@ -7,18 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C82FA65D2AA00FE9002CF3E3 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82FA65C2AA00FE9002CF3E3 /* DataController.swift */; };
+		C82FA6602AA0102E002CF3E3 /* Palace.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C82FA65E2AA0102E002CF3E3 /* Palace.xcdatamodeld */; };
+		C82FA6632AA01089002CF3E3 /* PiRecord+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82FA6612AA01089002CF3E3 /* PiRecord+CoreDataClass.swift */; };
+		C82FA6642AA01089002CF3E3 /* PiRecord+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82FA6622AA01089002CF3E3 /* PiRecord+CoreDataProperties.swift */; };
+		C8663BE32A9D37E60005F1F0 /* PiPalaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8663BE22A9D37E60005F1F0 /* PiPalaceView.swift */; };
+		C8663BE52A9D38020005F1F0 /* NavigationTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8663BE42A9D38020005F1F0 /* NavigationTabBar.swift */; };
+		C8663BE72A9D38380005F1F0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8663BE62A9D38380005F1F0 /* SettingsView.swift */; };
+		C8663BE92A9D384A0005F1F0 /* ScoreboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8663BE82A9D384A0005F1F0 /* ScoreboardView.swift */; };
 		C8B67CA42A794217005E77CC /* PalaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B67CA32A794217005E77CC /* PalaceApp.swift */; };
 		C8B67CA62A794217005E77CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B67CA52A794217005E77CC /* ContentView.swift */; };
-		C8B67CA82A794217005E77CC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B67CA72A794217005E77CC /* Item.swift */; };
 		C8B67CAA2A79421A005E77CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B67CA92A79421A005E77CC /* Assets.xcassets */; };
 		C8B67CAE2A79421A005E77CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B67CAD2A79421A005E77CC /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C82FA65C2AA00FE9002CF3E3 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		C82FA65F2AA0102E002CF3E3 /* Palace.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Palace.xcdatamodel; sourceTree = "<group>"; };
+		C82FA6612AA01089002CF3E3 /* PiRecord+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PiRecord+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C82FA6622AA01089002CF3E3 /* PiRecord+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PiRecord+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C82FA6652AA018C4002CF3E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C8663BE22A9D37E60005F1F0 /* PiPalaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiPalaceView.swift; sourceTree = "<group>"; };
+		C8663BE42A9D38020005F1F0 /* NavigationTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTabBar.swift; sourceTree = "<group>"; };
+		C8663BE62A9D38380005F1F0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C8663BE82A9D384A0005F1F0 /* ScoreboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardView.swift; sourceTree = "<group>"; };
 		C8B67CA02A794217005E77CC /* Palace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Palace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8B67CA32A794217005E77CC /* PalaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalaceApp.swift; sourceTree = "<group>"; };
 		C8B67CA52A794217005E77CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C8B67CA72A794217005E77CC /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		C8B67CA92A79421A005E77CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8B67CAB2A79421A005E77CC /* Palace.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Palace.entitlements; sourceTree = "<group>"; };
 		C8B67CAD2A79421A005E77CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -35,6 +50,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C82FA65B2AA00FD4002CF3E3 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				C82FA6612AA01089002CF3E3 /* PiRecord+CoreDataClass.swift */,
+				C82FA6622AA01089002CF3E3 /* PiRecord+CoreDataProperties.swift */,
+				C82FA65C2AA00FE9002CF3E3 /* DataController.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		C8663BDE2A9D37960005F1F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C8663BE22A9D37E60005F1F0 /* PiPalaceView.swift */,
+				C8663BE62A9D38380005F1F0 /* SettingsView.swift */,
+				C8663BE82A9D384A0005F1F0 /* ScoreboardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C8663BDF2A9D37990005F1F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C8663BE42A9D38020005F1F0 /* NavigationTabBar.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C8B67C972A794217005E77CC = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +97,16 @@
 		C8B67CA22A794217005E77CC /* Palace */ = {
 			isa = PBXGroup;
 			children = (
+				C82FA6652AA018C4002CF3E3 /* Info.plist */,
+				C82FA65B2AA00FD4002CF3E3 /* CoreData */,
+				C8663BDF2A9D37990005F1F0 /* Model */,
+				C8663BDE2A9D37960005F1F0 /* View */,
 				C8B67CA32A794217005E77CC /* PalaceApp.swift */,
 				C8B67CA52A794217005E77CC /* ContentView.swift */,
-				C8B67CA72A794217005E77CC /* Item.swift */,
 				C8B67CA92A79421A005E77CC /* Assets.xcassets */,
 				C8B67CAB2A79421A005E77CC /* Palace.entitlements */,
 				C8B67CAC2A79421A005E77CC /* Preview Content */,
+				C82FA65E2AA0102E002CF3E3 /* Palace.xcdatamodeld */,
 			);
 			path = Palace;
 			sourceTree = "<group>";
@@ -142,9 +189,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C82FA6632AA01089002CF3E3 /* PiRecord+CoreDataClass.swift in Sources */,
 				C8B67CA62A794217005E77CC /* ContentView.swift in Sources */,
-				C8B67CA82A794217005E77CC /* Item.swift in Sources */,
 				C8B67CA42A794217005E77CC /* PalaceApp.swift in Sources */,
+				C82FA6602AA0102E002CF3E3 /* Palace.xcdatamodeld in Sources */,
+				C8663BE72A9D38380005F1F0 /* SettingsView.swift in Sources */,
+				C8663BE92A9D384A0005F1F0 /* ScoreboardView.swift in Sources */,
+				C82FA65D2AA00FE9002CF3E3 /* DataController.swift in Sources */,
+				C8663BE32A9D37E60005F1F0 /* PiPalaceView.swift in Sources */,
+				C82FA6642AA01089002CF3E3 /* PiRecord+CoreDataProperties.swift in Sources */,
+				C8663BE52A9D38020005F1F0 /* NavigationTabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +332,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Palace/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Palace;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -296,10 +353,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kubamilcarz.Palace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Debug;
 		};
@@ -316,6 +374,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Palace/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Palace;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -334,10 +395,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kubamilcarz.Palace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Release;
 		};
@@ -363,6 +425,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C82FA65E2AA0102E002CF3E3 /* Palace.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C82FA65F2AA0102E002CF3E3 /* Palace.xcdatamodel */,
+			);
+			currentVersion = C82FA65F2AA0102E002CF3E3 /* Palace.xcdatamodel */;
+			path = Palace.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C8B67C982A794217005E77CC /* Project object */;
 }
