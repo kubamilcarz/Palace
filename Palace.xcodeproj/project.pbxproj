@@ -15,6 +15,7 @@
 		C8663BE52A9D38020005F1F0 /* NavigationTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8663BE42A9D38020005F1F0 /* NavigationTabBar.swift */; };
 		C8663BE72A9D38380005F1F0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8663BE62A9D38380005F1F0 /* SettingsView.swift */; };
 		C8663BE92A9D384A0005F1F0 /* ScoreboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8663BE82A9D384A0005F1F0 /* ScoreboardView.swift */; };
+		C898504A2AAE102800E15B6E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89850492AAE102800E15B6E /* Constant.swift */; };
 		C8B67CA42A794217005E77CC /* PalaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B67CA32A794217005E77CC /* PalaceApp.swift */; };
 		C8B67CA62A794217005E77CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B67CA52A794217005E77CC /* ContentView.swift */; };
 		C8B67CAA2A79421A005E77CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B67CA92A79421A005E77CC /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 		C8663BE42A9D38020005F1F0 /* NavigationTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTabBar.swift; sourceTree = "<group>"; };
 		C8663BE62A9D38380005F1F0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		C8663BE82A9D384A0005F1F0 /* ScoreboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardView.swift; sourceTree = "<group>"; };
+		C89850492AAE102800E15B6E /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		C8B67CA02A794217005E77CC /* Palace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Palace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8B67CA32A794217005E77CC /* PalaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalaceApp.swift; sourceTree = "<group>"; };
 		C8B67CA52A794217005E77CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				C8663BE42A9D38020005F1F0 /* NavigationTabBar.swift */,
+				C89850492AAE102800E15B6E /* Constant.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				C8663BE92A9D384A0005F1F0 /* ScoreboardView.swift in Sources */,
 				C82FA65D2AA00FE9002CF3E3 /* DataController.swift in Sources */,
 				C8663BE32A9D37E60005F1F0 /* PiPalaceView.swift in Sources */,
+				C898504A2AAE102800E15B6E /* Constant.swift in Sources */,
 				C82FA6642AA01089002CF3E3 /* PiRecord+CoreDataProperties.swift in Sources */,
 				C8663BE52A9D38020005F1F0 /* NavigationTabBar.swift in Sources */,
 			);
